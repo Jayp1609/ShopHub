@@ -26,7 +26,7 @@ const ContextCart = ({ children }) => {
 
   const [user, setUser] = useState({});
   const [auth, setAuth] = useState();
-  const host = "http://localhost:5000";
+  const host = "https://shop-hub-server.onrender.com";
 
   //<<<<<<<<<<>>>>>>>>>>>>
   //fetch user information

@@ -6,7 +6,7 @@ import "./Start.css";
 import { CartState } from "../context/ContextCart";
 
 const Start = () => {
-  const { setAuth, showalert } = CartState();
+  const { setAuth, showalert, host } = CartState();
   const [credentials, setCredentials] = useState({ email: "", password: "" });
   let navigate = useNavigate();
 
@@ -18,7 +18,7 @@ const Start = () => {
     e.preventDefault(); //used to prevent the reloading of page
     // showalert("Verifying your account", "success");
 
-    const response = await fetch("http://localhost:5000/api/auth/login", {
+    const response = await fetch(`${host}/api/auth/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
