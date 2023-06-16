@@ -1,7 +1,7 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const mongoose = require("mongoose");
-const uri =
-  "mongodb+srv://Jay:Jaypatel160902@cluster0.uu5wnnj.mongodb.net/ShopHub?retryWrites=true&w=majority";
+require("dotenv").config();
+const uri = process.env.MONGO_URI;
 
 mongoose.set("strictQuery", true);
 
