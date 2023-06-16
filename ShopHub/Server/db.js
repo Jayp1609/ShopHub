@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
-const uri = "mongodb+srv://Jay:Jaypatel160902@cluster0.uu5wnnj.mongodb.net/ShopHub?retryWrites=true&w=majority";
+const uri = process.env.MONGO_URI;
 
 mongoose.set("strictQuery", true);
 
