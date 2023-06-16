@@ -4,7 +4,6 @@
   "description": "Shopping application",
   "main": "index.js",
   "scripts": {
-   
     "start": "index.js"
   },
   "author": "",
