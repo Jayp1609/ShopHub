@@ -2,10 +2,10 @@ const express = require("express");
 const router = express.Router();
 const { body, validationResult } = require("express-validator");
 const User = require("../models/User");
-
+require("dotenv").config();
 const bcrypt = require("bcryptjs");
 var jwt = require("jsonwebtoken");
-const JWT_SECRET = "secret@#string";
+const JWT_SECRET = process.env.JWT_SECRET;
 
 var fetchUser = require("../middleware/fetchUser");
 
