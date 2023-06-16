@@ -1,0 +1,40 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+}
+
+form h3 {
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+form .text h3 {
+  color: #333;
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+}
+form .text h3 a {
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h3 a:hover {
+  text-decoration: underline;
+}
+form p {
+  color: rgb(255, 108, 108);
+}
+.signup-but {
+  padding-top: 30px;
+}
+.signup-but button:hover {
+  cursor: pointer;
+}
+.row label {
+  padding-top: 20px;
+}

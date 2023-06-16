@@ -1,0 +1,22 @@
+.Main-body {
+  border: 1px solid gray;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 6px rgb(228, 228, 228);
+}
+.Main-body ul {
+  text-align: center;
+}
+.Main-body li {
+  list-style-type: none;
+}
+.Main-body li b {
+  font-size: 30px;
+}
+.Main-body ul li input {
+  width: 100%;
+  padding-left: 7px;
+}
