@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import NAvbar from "./Components/NAvbar";
 import Home from "./Components/Home";
-import Cart from "./Components/Cart";
+
 import Start from "./Page/Start";
 import Registration from "./Components/Registration";
 import UserCard from "./Components/UserCard";
@@ -10,6 +10,7 @@ import Alert from "./Components/Alert";
 import { CartState } from "./context/ContextCart";
 import NoNavbar from "./Components/NoNavbar";
 import ForgotPass from "./Components/ForgotPass";
+import Cart from "./Components/Cart";
 
 // import Productdata from "./Productdata";
 

@@ -76,7 +76,7 @@ const NAvbar = () => {
                 <ul
                   className="dropdown-menu"
                   style={{
-                    width: "400px",
+                    width: "300px",
                     height: "auto",
                     maxHeight: "450px",
                     overflowX: "hidden",
@@ -106,7 +106,7 @@ const NAvbar = () => {
                                   />
                                 </div>
                                 <div
-                                  style={{ marginTop: "10px", width: "60%" }}
+                                  style={{ marginTop: "10px", width: "50%" }}
                                 >
                                   <ul style={{ listStyleType: "none" }}>
                                     <li>

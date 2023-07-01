@@ -27,8 +27,17 @@ const Home = () => {
     return sortedProducts;
   };
   return (
-    <div style={{ backgroundColor: "#ffffff" }}>
+    <div
+      style={{
+        backgroundColor: "#ffffff",
+        fontFamily: "Verdana",
+        marginTop: "-22px",
+      }}
+    >
       <div>
+        <h1 style={{ textAlign: "center", paddingTop: "40px" }}>
+          Shop, Click, Delight!
+        </h1>
         {updatedProducts().map((products) => {
           return (
             <div key={products.id}>

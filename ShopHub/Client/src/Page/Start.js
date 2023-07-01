@@ -61,6 +61,7 @@ const Start = () => {
                 alt="#"
                 style={{
                   height: "300px",
+                  width: "300px",
                   paddingBottom: "30px",
                 }}
               />
