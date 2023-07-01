@@ -41,7 +41,7 @@ const Cart = () => {
                       <li>
                         <b>{item.title}</b>
                       </li>
-                      <li>${item.price}</li>
+                      <li>${(item.price * item.qty).toFixed(2)}</li>
                     </ul>
                   </div>
                   <div className="item-quantity">
