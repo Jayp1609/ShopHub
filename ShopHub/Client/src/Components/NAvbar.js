@@ -57,7 +57,7 @@ const NAvbar = () => {
                   aria-current="page"
                   to="/user"
                 >
-                  User
+                  Profile
                 </Link>
               </li>
 
