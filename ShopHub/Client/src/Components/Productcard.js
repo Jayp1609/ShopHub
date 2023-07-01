@@ -33,7 +33,7 @@ const Productcard = (props) => {
             <li>{item.description}</li>
             <div style={{ paddingTop: "10px" }}>
               <li>
-                <b>${item.price}</b>
+                <b>₹{item.price}</b>
               </li>
               <li style={{ paddingTop: "5px" }}>
                 {

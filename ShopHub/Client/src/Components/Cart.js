@@ -41,7 +41,7 @@ const Cart = () => {
                       <li>
                         <b>{item.title}</b>
                       </li>
-                      <li>${(item.price * item.qty).toFixed(2)}</li>
+                      <li>₹{(item.price * item.qty).toFixed(2)}</li>
                     </ul>
                   </div>
                   <div className="item-quantity">
@@ -101,7 +101,7 @@ const Cart = () => {
 
             <div style={{ paddingTop: "20px" }}>
               <strong style={{ fontSize: "25px" }}>
-                Total payment: ${total.toFixed(2)}
+                Total payment: ₹{total.toFixed(2)}
               </strong>
             </div>
           </div>
