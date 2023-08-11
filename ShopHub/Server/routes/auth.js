@@ -55,9 +55,7 @@ router.post(
       });
 
       const data = {
-        user: {
           id: user._id,
-        },
       };
       const authtoken = jwt.sign(data, JWT_SECRET);
       success = true;
